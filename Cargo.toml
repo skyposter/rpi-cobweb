@@ -1,0 +1,19 @@
+[package]
+name = "rpi-cobweb"
+version = "0.1.0"
+authors = ["Kristian Sakariassen <kristian@sakka.no>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = "0.5.0"
+serde = "1.0.195"
+serde_json = "1.0.111"
+serde_derive = "1.0.195"
+rppal = "0.17.1"
+
+
+[dependencies.rocket_dyn_templates]
+version = "0.1.0"
+features = [ "handlebars" ]
